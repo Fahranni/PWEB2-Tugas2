@@ -39,9 +39,10 @@ class database //kelas dengan nama database
   function tampil() {} //metode dikosongkan, akan diisi di kelas turunan
 }
 ```
-Buat kelas database yang atributnya bersifat privat dengan menerapkan konsep encapsulation , kelas ini juga digunakan sebagai kelas induk yang atribut dan methodnya akan diturunkan
+Buat kelas database yang atributnya bersifat privat dengan menerapkan konsep encapsulation , kelas ini juga digunakan sebagai kelas induk yang atribut dan methodnya akan diturunkan. Metode _tampil()_ dikosongkan dan akan diisi dikelas turunannya
 ### Buat kelas turunan dengan menerapkan prinsip inheritance dan Polymorphism
 inhertance diterapkan dengan membuat 3 kelas turunan dari kelas database. Polymorphism diterapkan dengan metode _tampil()_
+Polymorphism diterapkan dengan adanya metode _tampil()_ distiap kelasnya, metode yang sama namun implementasi dan menghasilkan output yang berbeda
 ```php
 class lecturers extends database //kelas lecturers mewarisi kelas database
 {
