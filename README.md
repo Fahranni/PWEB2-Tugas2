@@ -464,7 +464,11 @@ $course_lecturer1 = $course_lecturer->tampil(); //mengambil data
 </body>
 </html>
 ```
-
+#### Output Menggunakan Bootsrap
+![ERD](/images/menu.png)
+![ERD](/images/lecturer2.png)
+![ERD](/images/courses2.png)
+![ERD](/images/course_lecturer2.png)
 
 
 
