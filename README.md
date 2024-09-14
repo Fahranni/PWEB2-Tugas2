@@ -1,6 +1,6 @@
 ## Bootstrap
 Bootstrap adalah framework CCS, HTML serta JavaScript yang memiliki fungsi untuk dapat mendesain sebuah web saja yang responsif sehingga saat diakses akan lebih mudah dan cepat. 
-**File B=bootstrap diupload dalam bentuk .rar dikarenakan file yang terlalu banyak**
+**File bootstrap diupload dalam bentuk .rar dikarenakan file yang terlalu banyak**
 ## Implementasi Konsep OOP
 Sistem Informasi Perkuliahan JKB adalah sistem manajemen akademik yang komprehensif yang dirancang untuk mempermudah proses pengelolaan mata kuliah.  
 
