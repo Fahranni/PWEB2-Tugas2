@@ -6,12 +6,15 @@ Sistem Informasi Perkuliahan JKB adalah sistem manajemen akademik yang komprehen
 
 ![ERD](/images/erd.png)  
 
-Pada implementasi OOP ini akan menggunakan table lecturer,corses dan couse_lecturer
+Pada implementasi OOP ini akan menggunakan table lecturer ,corses dan couse_lecturer
+1. Table Lecturer berisi mengenai data dan informasi dosen/pengajar
+2. Table Course berisi mengenai data dan informasi mengenai mata kuliah
+3. Table Course Lecturer digunakan untuk menghubungkan table lecturer melalui lecturer_id dan course melalui course_id
 ### Buat database dan Table
 ![ERD](/images/lecturer.png)   
-Buat tabel lecturer dengan id sebagai primary key
+Buat tabel lecturer dan atributnya dengan id sebagai primary key
 ![ERD](/images/courses.png)
-Buat tabel courses dengan id sebagai primary key
+Buat tabel courses dan atributnya dengan id sebagai primary key
 ![ERD](/images/course_lecturers.png)
 Buat tabel course_lecturers dengan id sebagai primary key,lecturer_id sebagai forgein key yang menghubungkakn course_lecturer dengan lecturer, course_id menghubungkan dengan table course.
 ### Buat koneksi agar terhubung dengan database
